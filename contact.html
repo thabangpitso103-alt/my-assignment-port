@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact & Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clothing.html">Clothing</a></li>
+        <li><a href="dance.html">Music & Dance</a></li>
+        <li><a href="crafts.html">Crafts & Art</a></li>
+
+</ul>
+    </nav>
+  </header>
+
+ <form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="topic">Topic of Interest:</label>
+  <select id="topic" name="topic">
+    <option value="clothing">Traditional Clothing</option>
+    <option value="music">Music & Dance</option>
+    <option value="crafts">Crafts & Art</option>
+  </select>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+
